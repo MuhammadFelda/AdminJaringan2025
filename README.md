@@ -2,7 +2,11 @@
 <p align="center">hello World</p>
 <p>A. Analisa file http.cap dengan wireshark :</p>
 <ol>
-  <li>Versi HTTP yang digunakan</li>
+  <li>
+      Versi HTTP yang digunakan
+      <img src="./img/HTTP Version.png">
+      <p></p>
+  </li>
   <li>IP address dari client maupun server</li>
   <li>waktu dari client mengirimkan HTTP request</li>
   <li>Waktu dari server mengirinmkan server dan berapa durasinya</li>
