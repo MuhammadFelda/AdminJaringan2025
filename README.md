@@ -1,8 +1,8 @@
 # Tugas Review Konsep Jaringan
 
-**Nama**: Muhammad Felda Hibatullah  
-**NRP**: 3123600023  
-**Kelas**: 2 D4 IT A  
+**Nama** : Muhammad Felda Hibatullah  
+**NRP** : 3123600023  
+**Kelas** : 2 D4 IT A  
 
 ## A. Analisa File http.cap dengan Wireshark
 
@@ -13,7 +13,21 @@
 - Untuk mengetahui versi HTTP melalui Wireshark, pilih paket nomor 4, klik kanan dan pilih opsi **Follow** > **HTTP streams**. Versi HTTP dapat dilihat pada bagian client dan server di bagian paling atas.
 
 ### 2. IP Address dari Client maupun Server
-![IP Address](./img/Client-Server-IP.png)
+![IP Address](./img/IP-Address.png)
+- Berdasarkan gambar di atas, dapat diketahui bahwa *IP Address* dari client dan server adalah **145.254.160.237.** dan **65.208.228.223**. Untuk mengetahui **IP Address** dari client dan server dapat dilihat pada bagian **Source** dan **Destination**.
+
+### 3. waktu dari client mengirimkan HTTP request
+![Time HTTP Request](./img/Time-Request.png)
+- Pada gambar di atas, untuk mengetahui waktu dari client mengirimkan HTTP request dapat dilihat pada **packet nomor 4** dengan waktu **0.911310**.
+
+### 4. Waktu dari server mengirinmkan server dan berapa durasinya
+![Server to Client Time](./img/Server-to-Client.png)
+- Pada gambar di atas, dapat diketahui waktu server mengirimkan ke client adalah **3.955688** dengan melihat **packet nomor 27**, sehingga dapat diketahui waktu selisih server mengirimkan data client.
+
+- Selisih waktu :
+  `Selisih waktu = 3.955688 - 0.911310 = 3.044378`
+
+- Dengan demikian, selisih waktu server mengirimkan ke client adalah **3.044378**.
 
 ## B. Deskripsi Gambar pada Slide
 ![Type of Data Deliveries](./img/Type-of-Data-Deliveries.png)
@@ -68,7 +82,10 @@ Proses transfer data setelah koneksi berhasil dibangun:
 Proses penghentian koneksi TCP menggunakan *three-way handshake* antara client dan server:
 
 - **Client memulai penutupan koneksi**  
-  - **Client mengirimkan sinyal untuk memulai penutupan koneksi setelah transfer data selesai**.
-  - Hal ini menunjukkan bahwa client tidak akan mengirim data lagi.
+  Client mengirimkan sinyal untuk memulai penutupan koneksi setelah transfer data selesai. Hal ini menunjukkan bahwa client tidak akan mengirim data lagi.
 
-- ****
+- **Server merespons dengan FIN + ACK**
+  Server menerima permintaan terminasi dengan mengirimkan ACK (ack: x + 1). Server juga mengirimkan FIN dengan seq: y untuk menunjukkan bahwa akan siap untuk menutup koneksi.
+
+- **Client mengirimkan ACK terakhir**
+  Client mengirimkan segmen ACK (ack: y + 1) sebagai konfirmasi bahwa telah menerima permintaan terminasi dari server dan setelah itu koneksi sepenuhnya tertutup.
