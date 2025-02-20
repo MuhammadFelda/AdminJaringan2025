@@ -1,5 +1,5 @@
 # AdminJaringan2025
-<p>hello World</p>
+<p align="center">hello World</p>
 <ol>
   <li>asda</li>
   <li>asda</li>
