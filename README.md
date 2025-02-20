@@ -81,11 +81,11 @@ Proses transfer data setelah koneksi berhasil dibangun:
 
 Proses penghentian koneksi TCP menggunakan *three-way handshake* antara client dan server:
 
-- **Client memulai penutupan koneksi**  
+- **Client memulai penutupan koneksi (FIN)**  
   Client mengirimkan sinyal untuk memulai penutupan koneksi setelah transfer data selesai. Hal ini menunjukkan bahwa client tidak akan mengirim data lagi.
 
 - **Server merespons dengan FIN + ACK**
   Server menerima permintaan terminasi dengan mengirimkan ACK (ack: x + 1). Server juga mengirimkan FIN dengan seq: y untuk menunjukkan bahwa akan siap untuk menutup koneksi.
 
-- **Client mengirimkan ACK terakhir**
+- **Client mengirimkan ACK terakhir (ACK)**
   Client mengirimkan segmen ACK (ack: y + 1) sebagai konfirmasi bahwa telah menerima permintaan terminasi dari server dan setelah itu koneksi sepenuhnya tertutup.
