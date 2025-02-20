@@ -3,7 +3,6 @@
 # Kelas : 2 D4 IT A
 
 <h1 align="center">Tugas Review Konsep Jaringan</h1>
-<br>
 <p>A. Analisa File http.cap dengan Wireshark :</p>
 <ol>
   <li>
@@ -45,7 +44,6 @@
 <ol>
   <li>
       Connection Establishment Using Three-Way Handshaking
-      <br>
       <img src="./img/connection-establishment-using-three-way-handshaking.png">
       <p></p>
   </li>
@@ -57,7 +55,6 @@
   </li>
   <li>
       Connection Termination Using Three-Way Handshaking
-      <br>br>
       <img src="">
       <p></p>
   </li>
