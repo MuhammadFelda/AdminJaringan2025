@@ -3,7 +3,7 @@
 # Kelas : 2 D4 IT A
 
 <h1 align="center">Tugas Review Konsep Jaringan</h1>
-<h2>A. Analisa File http.cap dengan Wireshark :</h2>
+### A. Analisa File http.cap dengan Wireshark
 <ol>
   <li>
       Versi HTTP yang digunakan
