@@ -10,13 +10,6 @@
             <p>Pada gambar di atas dapat diketahui bahwa versi HTTP yang digunakan adalah versi HTTP/1.1</p>
         </li>
         <li>
-            <p>Untuk dapat mengetahui versi HTTP melalui wireshark dengan</p>
-        </li>
-      </ul>
-  </li>
-  <li>IP address dari client maupun server</li>
-  <li>waktu dari client mengirimkan HTTP request</li>
-  <li>Waktu dari server mengirinmkan server dan berapa durasinya</li>
-</ol>
+            <p>Untuk dapat mengetahui versi HTTP melalui wireshark dengan menekan packet nomor 4, kemudian klik kanan dan pilih opsi follow dan HTPP streams. Untuk melihat HTTP version dapat dilihat pada bagian <i>client</i> dan <i>server</i> pada bagian paling atas</p>
 <p>2. Deskripsi gambar pada slide</p> 
 <p>3. rangkuman tahapan komunikasi menggunakan TCP</p>
