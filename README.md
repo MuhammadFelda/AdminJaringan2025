@@ -5,7 +5,14 @@
   <li>
       Versi HTTP yang digunakan
       <img src="./img/HTTP Version.png">
-      <p></p>
+      <ul>
+        <li>
+            <p>Pada gambar di atas dapat diketahui bahwa versi HTTP yang digunakan adalah versi HTTP/1.1</p>
+        </li>
+        <li>
+            <p>Untuk dapat mengetahui versi HTTP melalui wireshark dengan</p>
+        </li>
+      </ul>
   </li>
   <li>IP address dari client maupun server</li>
   <li>waktu dari client mengirimkan HTTP request</li>
