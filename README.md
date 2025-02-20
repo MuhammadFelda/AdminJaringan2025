@@ -9,13 +9,18 @@
         <li>
             <p>Pada gambar di atas dapat diketahui bahwa versi HTTP yang digunakan adalah versi HTTP/1.1</p>
         </li>
-        <li>
+        u<li>
             <p>Untuk dapat mengetahui versi HTTP melalui wireshark dengan menekan packet nomor 4, kemudian klik kanan dan pilih opsi follow dan HTPP streams. Untuk melihat HTTP version dapat dilihat pada bagian <i>client</i> dan <i>server</i> pada bagian paling atas</p>
         </li>
       </ul>
   </li>
 </ol>
 <p>B. Deskripsi gambar pada slide</p>
-<img src="./img/Type of Data Deliveries.png">
+<img src="./img/Type-of-Data-Deliveries.png">
+<ul>
+  <li>
+    <p>lorem ipsum</p>
+  </li>
+</ul>
 
 <p>C. rangkuman tahapan komunikasi menggunakan TCP</p>
