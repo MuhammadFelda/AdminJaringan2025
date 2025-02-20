@@ -1,5 +1,9 @@
-# AdminJaringan2025
-<p align="center">hello World</p>
+# Nama  : Muhammad Felda Hibatullah
+# NRP   : 3123600023
+# Kelas : 2 D4 IT A
+
+<h1 align="center">Tugas Review Konsep Jaringan</h1>
+<br>
 <p>A. Analisa File http.cap dengan Wireshark :</p>
 <ol>
   <li>
@@ -13,6 +17,10 @@
             <p>Untuk dapat mengetahui versi HTTP melalui wireshark dengan menekan packet nomor 4, kemudian klik kanan dan pilih opsi follow dan HTPP streams. Untuk melihat HTTP version dapat dilihat pada bagian <i>client</i> dan <i>server</i> pada bagian paling atas</p>
         </li>
       </ul>
+  </li>
+  <li>
+      IP address dari client maupun server
+      <img>
   </li>
 </ol>
 <p>B. Deskripsi Gambar Pada Slide</p>
@@ -37,21 +45,19 @@
 <ol>
   <li>
       Connection Establishment Using Three-Way Handshaking
+      <br>
       <img src="./img/connection-establishment-using-three-way-handshaking.png">
       <p></p>
   </li>
   <li>
       Data Transfer
+      <br>
       <img src="./img/Data-Transfer.png">
       <p></p>
   </li>
   <li>
       Connection Termination Using Three-Way Handshaking
-      <img src="">
-      <p></p>
-  </li>
-  <li>
-      Half-close
+      <br>br>
       <img src="">
       <p></p>
   </li>
