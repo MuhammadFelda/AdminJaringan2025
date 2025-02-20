@@ -14,9 +14,8 @@
         </li>
       </ul>
   </li>
-  <li>
-      Deskripsi gambar pada slide 
-
-  </li>
 </ol>
-<p>3. rangkuman tahapan komunikasi menggunakan TCP</p>
+<p>B. Deskripsi gambar pada slide</p>
+<img src="./img/Type of Data Deliveries.png">
+
+<p>C. rangkuman tahapan komunikasi menggunakan TCP</p>
