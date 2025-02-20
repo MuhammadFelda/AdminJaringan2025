@@ -68,7 +68,7 @@ Proses transfer data setelah koneksi berhasil dibangun:
 Proses penghentian koneksi TCP menggunakan *three-way handshake* antara client dan server:
 
 - **Client memulai penutupan koneksi**  
-  - Client mengirimkan sinyal untuk memulai penutupan koneksi setelah transfer data selesai.
+  - **Client mengirimkan sinyal untuk memulai penutupan koneksi setelah transfer data selesai**.
   - Hal ini menunjukkan bahwa client tidak akan mengirim data lagi.
 
 - ****
