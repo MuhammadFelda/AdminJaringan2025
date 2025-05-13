@@ -89,6 +89,8 @@ Agar domain dapat mengirim dan menerima email, DNS harus dikonfigurasi dengan re
 
 ## 3. Introduction to Electronic Mail
 
+![](./img/Mail.png)
+
 ### 🖼️ Penjelasan Gambar Sistem Email
 
 Gambar tersebut menggambarkan alur pengiriman dan penerimaan email antara dua pengguna: User A dan User B.
